@@ -1,0 +1,117 @@
+{
+  "overview": "SeeZee Studios provides a full spectrum of technology services, anchored by real support and consulting, with advanced capabilities in web, software, and automation.",
+  "services": [
+    {
+      "id": "live-technical-support",
+      "name": "Live Technical Support",
+      "priority": "primary",
+      "order": 1,
+      "description": "On-site and remote help for real-world technical issues. PC/Mac troubleshooting, network issues, device setup, software problems, emergency fixes.",
+      "details": [
+        "On-site support for schools, nonprofits, and local organizations",
+        "Remote troubleshooting and assistance",
+        "Hardware and software diagnosis",
+        "Network configuration and repair",
+        "Device setup and migration",
+        "Emergency technical support"
+      ],
+      "pricing": [
+        "Hourly support",
+        "Monthly retainer plans",
+        "School and nonprofit special rates"
+      ],
+      "differentiator": "This is our anchor. Real experience in real environments, not just theory."
+    },
+    {
+      "id": "technology-consulting",
+      "name": "Technology Consulting",
+      "priority": "primary",
+      "order": 2,
+      "description": "Decision-making support, not just advice. What systems should you use? How do you modernize? How do you automate? What should you stop paying for?",
+      "details": [
+        "Systems assessment and planning",
+        "Technology roadmap development",
+        "Tool and vendor selection guidance",
+        "Workflow analysis and optimization",
+        "Budget-conscious recommendations",
+        "Long-term technology strategy"
+      ],
+      "pricing": [
+        "Project-based consulting",
+        "Ongoing advisory retainer"
+      ],
+      "differentiator": "Frames us as a trusted advisor, not a repair guy or sales pitch."
+    },
+    {
+      "id": "web-software-systems",
+      "name": "Web & Software Systems",
+      "priority": "secondary",
+      "order": 3,
+      "description": "Websites, internal tools, dashboards, and digital infrastructure. Built as part of a larger system, not standalone projects.",
+      "details": [
+        "Custom websites with Next.js and modern frameworks",
+        "Internal tools and admin dashboards",
+        "E-commerce platforms with payment integration",
+        "Database design and management",
+        "API development and integrations",
+        "Mobile-responsive design"
+      ],
+      "techStack": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Prisma",
+        "Vercel",
+        "Stripe"
+      ],
+      "pricing": [
+        "Fixed project builds",
+        "Optional ongoing support and maintenance"
+      ],
+      "differentiator": "We don't just 'make websites.' We build systems that work as part of your organization's infrastructure."
+    },
+    {
+      "id": "automation-ai",
+      "name": "Automation & AI Solutions",
+      "priority": "advanced",
+      "order": 4,
+      "description": "Practical automation and AI tools that support real workflows. Offered once trust exists, never as the lead.",
+      "details": [
+        "Workflow automation",
+        "Internal dashboards and reporting",
+        "AI assistants for specific use cases",
+        "Data processing and organization",
+        "Integration between existing systems",
+        "Custom tooling for repetitive tasks"
+      ],
+      "pricing": [
+        "Project-based",
+        "Add-on to existing support relationships"
+      ],
+      "differentiator": "AI used only where it adds real value. Never hype-first, never AI-for-AI's-sake."
+    }
+  ],
+  "audiences": [
+    {
+      "id": "schools",
+      "name": "Schools & Education",
+      "description": "K-12 schools, districts, and educational organizations needing reliable tech support and modern systems."
+    },
+    {
+      "id": "nonprofits",
+      "name": "Nonprofits",
+      "description": "Mission-driven organizations that need technology to work without enterprise budgets."
+    },
+    {
+      "id": "community-orgs",
+      "name": "Community Organizations",
+      "description": "Local groups, faith-based organizations, and service providers serving their communities."
+    },
+    {
+      "id": "local-business",
+      "name": "Local Businesses",
+      "description": "Small and local businesses that value long-term relationships over one-time transactions."
+    }
+  ]
+}

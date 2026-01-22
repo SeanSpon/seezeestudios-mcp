@@ -1,0 +1,107 @@
+{
+  "overview": "SeeZee Studios communicates with calm confidence and genuine helpfulness. We sound like a trusted technology partner, not a sales team or generic agency.",
+  "voice": {
+    "primary": [
+      "Calm",
+      "Trustworthy",
+      "Human",
+      "Clear",
+      "Professional"
+    ],
+    "secondary": [
+      "Competent",
+      "Local",
+      "Experienced",
+      "Grounded",
+      "Helpful"
+    ]
+  },
+  "coreMessage": "We'll fix it. And we'll explain it. And it'll stay fixed.",
+  "preferredLanguage": {
+    "use": [
+      {
+        "instead_of": "vendor",
+        "use": "partner"
+      },
+      {
+        "instead_of": "deliverables",
+        "use": "support"
+      },
+      {
+        "instead_of": "features",
+        "use": "systems"
+      },
+      {
+        "instead_of": "quick wins",
+        "use": "long-term"
+      },
+      {
+        "instead_of": "agency",
+        "use": "technology partner"
+      },
+      {
+        "instead_of": "cutting-edge",
+        "use": "modern"
+      },
+      {
+        "instead_of": "disruptive",
+        "use": "practical"
+      },
+      {
+        "instead_of": "leverage",
+        "use": "use"
+      },
+      {
+        "instead_of": "synergy",
+        "use": "work together"
+      }
+    ]
+  },
+  "avoid": {
+    "words": [
+      "synergy",
+      "leverage",
+      "disruptive",
+      "cutting-edge",
+      "revolutionize",
+      "game-changing",
+      "next-gen",
+      "bleeding-edge",
+      "scalable solutions",
+      "paradigm shift",
+      "best-in-class",
+      "world-class"
+    ],
+    "patterns": [
+      "Agency buzzwords and marketing speak",
+      "AI hype and overpromising",
+      "Enterprise-scale implications",
+      "Aggressive sales language",
+      "Startup clichés",
+      "Overconfident claims",
+      "Bragging or flexing achievements"
+    ]
+  },
+  "guidelines": [
+    "Write for humans, not search engines",
+    "Be specific, not vague",
+    "Show don't tell — imply competence through clarity",
+    "Shorter is better. Cut the fluff.",
+    "If something sounds like marketing, rewrite it",
+    "When in doubt, sound like you're explaining to a trusted colleague"
+  ],
+  "examples": {
+    "good": [
+      "We provide on-site technical support for schools and nonprofits.",
+      "Our team helps you make better technology decisions.",
+      "We build websites and tools that actually work for your organization.",
+      "Years of hands-on experience supporting real organizations."
+    ],
+    "bad": [
+      "We leverage cutting-edge AI to disrupt the technology consulting space.",
+      "Our world-class team delivers best-in-class solutions.",
+      "Revolutionary approach to digital transformation.",
+      "We're the Uber of tech support."
+    ]
+  }
+}

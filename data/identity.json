@@ -1,0 +1,43 @@
+{
+  "company": "SeeZee Studios",
+  "positioning": "Community Technology Partner",
+  "tagline": "Real Technology Support. Real Systems. Real People.",
+  "mission": "Provide hands-on technical support, technology consulting, and digital systems for schools, nonprofits, and community organizations.",
+  "description": "SeeZee Studios is a community technology partner built on trust and real support. We started on the ground — fixing computers, solving real problems, and supporting staff and students day-to-day. That long-term trust is what we're built on.",
+  "founded": "Started as an FBLA project at Trinity High School, evolved into a real studio building modern solutions for community organizations.",
+  "team": [
+    {
+      "name": "Sean",
+      "role": "Technical Lead",
+      "focus": "Technical support, systems architecture, backend infrastructure, full-stack development",
+      "background": "Years of on-site technical support experience, including long-term work at local schools. Passionate about Raspberry Pi projects, AI automation, and building scalable systems."
+    },
+    {
+      "name": "Zach",
+      "role": "Consulting Lead",
+      "focus": "Client relationships, technology decisions, user experience, presentation",
+      "background": "Focuses on ensuring every project not only works perfectly but serves the organization's real needs. Strong FBLA background in business applications."
+    }
+  ],
+  "differentiators": [
+    "Years of hands-on technical support experience",
+    "On-site experience in school environments",
+    "Trust from administrators and staff (name on the wall)",
+    "Live troubleshooting under pressure",
+    "Also builds modern systems and automation"
+  ],
+  "notWhoWeAre": [
+    "A hype-driven AI startup",
+    "A generic web agency",
+    "A SaaS-first company",
+    "An enterprise consultancy",
+    "A move-fast-and-break-things culture"
+  ],
+  "whoWeAre": [
+    "Support-first",
+    "Trust-driven",
+    "Community-focused",
+    "Practical and grounded",
+    "Long-term oriented"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "overview": "These are hard constraints and operating rules for all SeeZee Studios communications, code, and AI agent behavior. The MCP serves as the authoritative source of truth.",
+  "positioning": {
+    "must": [
+      "Lead with technical support and consulting",
+      "Frame web, software, and AI as supporting services",
+      "Emphasize community focus and local trust",
+      "Present as a long-term partner, not a vendor",
+      "Imply credibility through experience, not claims"
+    ],
+    "mustNot": [
+      "Position AI as the primary or lead offering",
+      "Imply enterprise scale or capabilities",
+      "Use agency-first or development-only framing",
+      "Brag about achievements or flex credentials",
+      "Sound like a startup pitch deck"
+    ]
+  },
+  "services": {
+    "priority": "Support and consulting first. Web/software second. AI/automation as advanced add-on.",
+    "ai_positioning": "AI is a tool, not the identity. Offered once trust exists. Never hype-first.",
+    "pricing_framing": "Transparent and fair. Not cheap, but reasonable for organizations we serve."
+  },
+  "content": {
+    "websites": "Keep layout and design stable. Focus copy changes on positioning and messaging.",
+    "proposals": "Prioritize clarity and trust over flashiness. Show understanding of their needs.",
+    "code": "Favor maintainability over novelty. Practical solutions over clever ones.",
+    "documentation": "Clear and helpful. Not verbose. Written for the person who needs it."
+  },
+  "agentBehavior": {
+    "mode": "adaptable",
+    "description": "AI agents should be adaptable — can suggest improvements and challenge bad ideas while respecting constraints.",
+    "rules": [
+      "Always check MCP data before making assumptions about services, positioning, or tone",
+      "Can suggest alternative approaches if they better serve the user's goal",
+      "Must flag when a request conflicts with SeeZee positioning rules",
+      "Should explain reasoning when challenging a direction",
+      "Defer to MCP as authoritative when conflicts arise",
+      "Never invent or assume SeeZee standards not in MCP data"
+    ]
+  },
+  "absoluteConstraints": [
+    "Never reposition SeeZee as development-only or AI-first",
+    "Never lead with AI as the main offering",
+    "Never suggest enterprise-scale claims or implications",
+    "Never drift from community-first framing",
+    "Never contradict the SeeZee MCP",
+    "Never use tone or language marked as 'avoid' in tone.json"
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-22"
+}
