@@ -65,9 +65,40 @@
         "Vercel",
         "Stripe"
       ],
+      "packages": [
+        {
+          "name": "Starter",
+          "price": "$599",
+          "pages": "3-5",
+          "description": "Perfect for small businesses needing a clean, professional web presence."
+        },
+        {
+          "name": "Growth",
+          "price": "$1,499",
+          "pages": "7-10",
+          "description": "For growing businesses that need more pages and functionality."
+        },
+        {
+          "name": "Pro",
+          "price": "$2,999",
+          "pages": "Unlimited",
+          "description": "Custom features, e-commerce, and full-scale web systems."
+        }
+      ],
+      "nonprofitDiscount": "40% off all packages",
+      "maintenance": {
+        "startingAt": "$150/month",
+        "includes": [
+          "Ongoing updates and content changes",
+          "Security patches and monitoring",
+          "Performance optimization",
+          "Priority support"
+        ]
+      },
       "pricing": [
-        "Fixed project builds",
-        "Optional ongoing support and maintenance"
+        "Fixed project builds (Starter $599, Growth $1,499, Pro $2,999)",
+        "Nonprofits receive 40% off all packages",
+        "Maintenance plans starting at $150/month"
       ],
       "differentiator": "We don't just 'make websites.' We build systems that work as part of your organization's infrastructure."
     },
