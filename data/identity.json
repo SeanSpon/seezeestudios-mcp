@@ -1,48 +1,81 @@
 {
   "company": "SeeZee Studios",
-  "positioning": "Community Technology Partner",
+  "legalName": "SeeZee Studio",
+  "positioning": "Your Community Technology Partner",
   "tagline": "Real Technology Support. Real Systems. Real People.",
-  "mission": "Provide hands-on technical support, technology consulting, and digital systems for schools, nonprofits, and community organizations.",
-  "description": "SeeZee Studios is a community technology partner built on trust and real support. We started on the ground — fixing computers, solving real problems, and supporting staff and students day-to-day. That long-term trust is what we're built on.",
-  "location": "Louisville, KY",
+  "mission": "Provide hands-on technical support, technology consulting, and digital systems for schools, nonprofits, businesses, and community organizations.",
+  "description": "SeeZee Studios is a community technology partner built on trust and real support. We started on the ground — fixing computers, solving real problems, and supporting staff and students day-to-day. That long-term trust is what we're built on. We build websites, apps, AI systems, and dashboards for local organizations, then stay as long-term technology partners.",
+  "founded": "Started as an FBLA project at Trinity High School in Louisville, KY. Evolved from a school project into a real consulting firm building modern solutions for community organizations.",
+  "location": "Louisville, Kentucky",
   "contact": {
-    "email": "sean@seezeestudios.com",
-    "website": "https://seezeestudios.com"
+    "email": "contact@seezeestudios.com",
+    "seanEmail": "sean@seezeestudios.com",
+    "phone": "(502) 435-2986",
+    "website": "https://seezeestudios.com",
+    "responseTime": "Within 24 hours"
   },
-  "founded": "Started as an FBLA project at Trinity High School, evolved into a real studio building modern solutions for community organizations.",
+  "social": {
+    "twitter": "@seezee_studio",
+    "github": ["github.com/SeanSpon", "github.com/zrobards"],
+    "instagram": ["@sean.mcculloch7", "@zachrobards"]
+  },
   "team": [
     {
-      "name": "Sean",
-      "role": "Technical Lead",
-      "focus": "Technical support, systems architecture, backend infrastructure, full-stack development",
-      "background": "Years of on-site technical support experience, including long-term work at local schools. Passionate about Raspberry Pi projects, AI automation, and building scalable systems."
+      "name": "Sean McCulloch",
+      "shortName": "Sean",
+      "role": "Co-Founder & Technical Lead",
+      "title": "Lead Developer & Designer",
+      "focus": "Full-stack development, system architecture, AI integration, technical support, accessible design",
+      "background": "Years of on-site technical support experience including long-term work at local schools. Passionate about building scalable systems, AI automation, and Raspberry Pi projects. Leads all technical development and infrastructure.",
+      "social": {
+        "instagram": "@sean.mcculloch7",
+        "github": "github.com/SeanSpon"
+      }
     },
     {
-      "name": "Zach",
-      "role": "Consulting Lead",
-      "focus": "Client relationships, technology decisions, user experience, presentation",
-      "background": "Focuses on ensuring every project not only works perfectly but serves the organization's real needs. Strong FBLA background in business applications."
+      "name": "Zach Robards",
+      "shortName": "Zach",
+      "role": "Co-Founder & Consulting Lead",
+      "title": "Operations & Client Experience",
+      "focus": "Client relationships, technology consulting, project planning, user experience, training, content",
+      "background": "Works directly with organizations to ensure every project serves their real needs. Explains technology clearly, helps make smart decisions that fit budgets and goals. Strong FBLA background in business applications. Also contributes to development.",
+      "social": {
+        "instagram": "@zachrobards",
+        "github": "github.com/zrobards"
+      }
     }
   ],
   "differentiators": [
     "Years of hands-on technical support experience",
     "On-site experience in school environments",
-    "Trust from administrators and staff (name on the wall)",
+    "Trust from administrators and staff",
     "Live troubleshooting under pressure",
-    "Also builds modern systems and automation"
-  ],
-  "notWhoWeAre": [
-    "A hype-driven AI startup",
-    "A generic web agency",
-    "A SaaS-first company",
-    "An enterprise consultancy",
-    "A move-fast-and-break-things culture"
+    "Build modern systems AND provide ongoing support",
+    "Community-focused — prioritize organizations doing meaningful work",
+    "No hidden fees — transparent pricing",
+    "Don't disappear after setup — long-term partnership model"
   ],
   "whoWeAre": [
     "Support-first",
     "Trust-driven",
     "Community-focused",
     "Practical and grounded",
-    "Long-term oriented"
+    "Long-term oriented",
+    "Accessibility-minded"
+  ],
+  "notWhoWeAre": [
+    "A hype-driven AI startup",
+    "A generic web agency",
+    "A SaaS-first company",
+    "An enterprise consultancy",
+    "A move-fast-and-break-things culture",
+    "A cheap volume agency",
+    "A $300 website shop"
+  ],
+  "coreValues": [
+    "AI should support people, not replace them",
+    "Simplicity scales — clear interfaces and predictable workflows win",
+    "Integration matters more than tools — connect what exists before adding more",
+    "Build. Support. Evolve. — don't launch and disappear"
   ]
 }

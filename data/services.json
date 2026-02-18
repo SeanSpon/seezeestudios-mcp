@@ -1,148 +1,162 @@
 {
-  "overview": "SeeZee Studios provides a full spectrum of technology services, anchored by real support and consulting, with advanced capabilities in web, software, and automation.",
+  "overview": "SeeZee Studios provides web development, AI systems, dashboards, and automation as the primary entry point, backed by ongoing technical support and consulting as long-term partnership services.",
+  "serviceHierarchy": "Web development and systems are the front door. Ongoing support and consulting retain clients long-term. AI and automation are upsells.",
   "services": [
     {
-      "id": "live-technical-support",
-      "name": "Live Technical Support",
+      "id": "web-software-systems",
+      "name": "Web Development & Systems",
       "priority": "primary",
       "order": 1,
-      "description": "On-site and remote help for real-world technical issues. PC/Mac troubleshooting, network issues, device setup, software problems, emergency fixes.",
+      "description": "Custom websites, web applications, dashboards, and digital infrastructure. This is the main entry point — clients come to us for a website, app, or system.",
+      "details": [
+        "Custom responsive websites with modern frameworks",
+        "Web applications and platforms",
+        "Internal tools and admin dashboards",
+        "E-commerce platforms with payment integration",
+        "Database design and management",
+        "API development and integrations",
+        "Mobile-responsive, accessible design"
+      ],
+      "techStack": ["Next.js", "React", "TypeScript", "Tailwind CSS", "PostgreSQL", "Prisma", "Vercel", "Stripe", "Framer Motion"],
+      "projectTypes": {
+        "marketingWebsite": {
+          "name": "Marketing Website",
+          "description": "5-10 custom pages, mobile responsive, contact forms, SEO",
+          "priceRange": "$3,000 - $6,000",
+          "timeline": "2-3 weeks"
+        },
+        "ecommerce": {
+          "name": "E-commerce Store",
+          "description": "Product catalogs, shopping cart, checkout, payment processing, inventory",
+          "priceRange": "$6,000 - $12,000",
+          "timeline": "4-6 weeks"
+        },
+        "webApp": {
+          "name": "Web Application",
+          "description": "User auth, custom dashboards, database integration, full-stack",
+          "priceRange": "$8,000 - $20,000",
+          "timeline": "6-12 weeks"
+        },
+        "landingPage": {
+          "name": "Landing Page",
+          "description": "Conversion-focused, lead capture, fast loading",
+          "priceRange": "$1,200 - $2,400",
+          "timeline": "1 week"
+        }
+      },
+      "pricingApproach": "Projects are custom-scoped. Typical builds range from $1k-$5k for most small businesses. Larger system builds go $5k-$15k+. We don't list rigid prices — every project is different.",
+      "minimums": {
+        "minimumBuild": "$1,000",
+        "deposit": "25% of estimate or $250 minimum"
+      },
+      "rushDelivery": "Available for 15% additional fee",
+      "differentiator": "We don't just make websites. We build systems that work as part of your organization's infrastructure and stay with you long-term."
+    },
+    {
+      "id": "ongoing-partnership",
+      "name": "Ongoing Technology Partnership",
+      "priority": "primary",
+      "order": 2,
+      "description": "After building your system, we stay as your technology partner. Monthly support, updates, improvements, and strategic guidance. This is how we retain clients.",
+      "details": [
+        "Priority 24hr response time",
+        "Security updates and backups",
+        "Unlimited change requests",
+        "Emergency same-day fixes",
+        "Performance monitoring",
+        "Strategic quarterly reviews (Annual plans)",
+        "Hour-based support pool — buy hours, use them on anything"
+      ],
+      "plans": {
+        "quarterly": {
+          "name": "Quarterly Maintenance",
+          "price": "$2,000 per quarter",
+          "effectiveMonthly": "~$667/month",
+          "hoursIncluded": 30,
+          "effectiveHourlyRate": "~$67/hour",
+          "features": ["Priority 24hr response", "Security updates & backups", "Unlimited change requests", "Emergency same-day fixes"]
+        },
+        "annual": {
+          "name": "Annual Maintenance",
+          "price": "$6,800 per year",
+          "effectiveMonthly": "~$567/month",
+          "hoursIncluded": 120,
+          "effectiveHourlyRate": "~$57/hour",
+          "savings": "$1,200 saved vs 4x quarterly (15%)",
+          "features": ["Everything in Quarterly", "Quarterly strategy reviews", "Performance monitoring"]
+        }
+      },
+      "hourPacks": {
+        "description": "Need more hours? Buy packs anytime.",
+        "packs": [
+          {"name": "Quick Boost", "hours": 5, "price": "$350", "rate": "$70/hr", "expiry": "60 days"},
+          {"name": "Power Pack", "hours": 10, "price": "$650", "rate": "$65/hr", "expiry": "90 days", "popular": true},
+          {"name": "Mega Pack", "hours": 20, "price": "$1,200", "rate": "$60/hr", "expiry": "120 days"},
+          {"name": "Never Expire Pack", "hours": 10, "price": "$850", "rate": "$85/hr", "expiry": "Never expires"}
+        ]
+      },
+      "onDemandRate": "$75/hour",
+      "differentiator": "We don't just build it. We stay with you. Your technology partner, not a one-time vendor."
+    },
+    {
+      "id": "technical-support-consulting",
+      "name": "Technical Support & Consulting",
+      "priority": "secondary",
+      "order": 3,
+      "description": "On-site and remote help for real-world technical issues. Technology decision support and strategy. This builds trust and retains relationships.",
       "details": [
         "On-site support for schools, nonprofits, and local organizations",
         "Remote troubleshooting and assistance",
         "Hardware and software diagnosis",
         "Network configuration and repair",
         "Device setup and migration",
-        "Emergency technical support"
-      ],
-      "pricing": [
-        "Hourly support",
-        "Monthly retainer plans",
-        "School and nonprofit special rates"
-      ],
-      "differentiator": "This is our anchor. Real experience in real environments, not just theory."
-    },
-    {
-      "id": "technology-consulting",
-      "name": "Technology Consulting",
-      "priority": "primary",
-      "order": 2,
-      "description": "Decision-making support, not just advice. What systems should you use? How do you modernize? How do you automate? What should you stop paying for?",
-      "details": [
-        "Systems assessment and planning",
+        "Emergency technical support",
         "Technology roadmap development",
         "Tool and vendor selection guidance",
-        "Workflow analysis and optimization",
-        "Budget-conscious recommendations",
-        "Long-term technology strategy"
+        "Workflow analysis and optimization"
       ],
-      "pricing": [
-        "Project-based consulting",
-        "Ongoing advisory retainer"
-      ],
-      "differentiator": "Frames us as a trusted advisor, not a repair guy or sales pitch."
-    },
-    {
-      "id": "web-software-systems",
-      "name": "Web & Software Systems",
-      "priority": "secondary",
-      "order": 3,
-      "description": "Websites, internal tools, dashboards, and digital infrastructure. Built as part of a larger system, not standalone projects.",
-      "details": [
-        "Custom websites with Next.js and modern frameworks",
-        "Internal tools and admin dashboards",
-        "E-commerce platforms with payment integration",
-        "Database design and management",
-        "API development and integrations",
-        "Mobile-responsive design"
-      ],
-      "techStack": [
-        "Next.js",
-        "React",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Prisma",
-        "Vercel",
-        "Stripe"
-      ],
-      "packages": [
-        {
-          "name": "Starter",
-          "price": "$599",
-          "pages": "3-5",
-          "description": "Perfect for small businesses needing a clean, professional web presence."
-        },
-        {
-          "name": "Growth",
-          "price": "$1,499",
-          "pages": "7-10",
-          "description": "For growing businesses that need more pages and functionality."
-        },
-        {
-          "name": "Pro",
-          "price": "$2,999",
-          "pages": "Unlimited",
-          "description": "Custom features, e-commerce, and full-scale web systems."
-        }
-      ],
-      "nonprofitDiscount": "40% off all packages",
-      "maintenance": {
-        "startingAt": "$150/month",
-        "includes": [
-          "Ongoing updates and content changes",
-          "Security patches and monitoring",
-          "Performance optimization",
-          "Priority support"
-        ]
+      "consulting": {
+        "initialCall": "Free 20-minute intro call",
+        "paidConsultation": "$50-$100 (waived if they sign a project)"
       },
-      "pricing": [
-        "Fixed project builds (Starter $599, Growth $1,499, Pro $2,999)",
-        "Nonprofits receive 40% off all packages",
-        "Maintenance plans starting at $150/month"
-      ],
-      "differentiator": "We don't just 'make websites.' We build systems that work as part of your organization's infrastructure."
+      "differentiator": "We started doing this before we were a company. Real experience in real environments, not just theory."
     },
     {
       "id": "automation-ai",
       "name": "Automation & AI Solutions",
-      "priority": "advanced",
+      "priority": "upsell",
       "order": 4,
-      "description": "Practical automation and AI tools that support real workflows. Offered once trust exists, never as the lead.",
+      "description": "Practical automation and AI tools that support real workflows. Offered as an add-on or upsell once trust exists. Never hype-first.",
       "details": [
         "Workflow automation",
+        "AI assistants and chatbots",
         "Internal dashboards and reporting",
-        "AI assistants for specific use cases",
         "Data processing and organization",
         "Integration between existing systems",
         "Custom tooling for repetitive tasks"
       ],
-      "pricing": [
-        "Project-based",
-        "Add-on to existing support relationships"
-      ],
-      "differentiator": "AI used only where it adds real value. Never hype-first, never AI-for-AI's-sake."
+      "aiPricing": {
+        "starter": {"name": "AI Starter", "setup": "$300-$800", "monthly": "$50-$150/mo", "includes": "Chatbots, automations, forms"},
+        "business": {"name": "AI Business System", "setup": "$1,500-$5,000+", "monthly": "$200-$500/mo", "includes": "Dashboards, CRM, automation, analytics"}
+      },
+      "differentiator": "AI used only where it adds real value. Never AI-for-AI's-sake."
     }
   ],
   "audiences": [
-    {
-      "id": "schools",
-      "name": "Schools & Education",
-      "description": "K-12 schools, districts, and educational organizations needing reliable tech support and modern systems."
-    },
-    {
-      "id": "nonprofits",
-      "name": "Nonprofits",
-      "description": "Mission-driven organizations that need technology to work without enterprise budgets."
-    },
-    {
-      "id": "community-orgs",
-      "name": "Community Organizations",
-      "description": "Local groups, faith-based organizations, and service providers serving their communities."
-    },
-    {
-      "id": "local-business",
-      "name": "Local Businesses",
-      "description": "Small and local businesses that value long-term relationships over one-time transactions."
-    }
-  ]
+    {"id": "local-business", "name": "Local Businesses", "description": "Small and local businesses that need a website, app, or system and value long-term relationships over one-time transactions. This is the primary target."},
+    {"id": "schools", "name": "Schools & Education", "description": "K-12 schools, districts, and educational organizations needing reliable tech support and modern systems."},
+    {"id": "nonprofits", "name": "Nonprofits", "description": "Mission-driven organizations that need technology to work without enterprise budgets."},
+    {"id": "community-orgs", "name": "Community Organizations", "description": "Local groups, faith-based organizations, and service providers serving their communities."}
+  ],
+  "paymentInfo": {
+    "methods": ["Stripe", "Credit cards", "Debit cards", "ACH transfers"],
+    "depositRequired": "25% of estimate or $250 minimum",
+    "invoiceSplit": "Typically 50% deposit, 50% final (customizable)",
+    "paymentPlans": "Available — we work to find a structure that fits your budget"
+  },
+  "timeline": {
+    "standard": "2-3 weeks for most websites",
+    "rush": "1 week available (15% rush fee)",
+    "complex": "4-12 weeks for web apps and system builds"
+  }
 }

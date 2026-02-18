@@ -1,85 +1,37 @@
 {
   "overview": "SeeZee Studios communicates with calm confidence and genuine helpfulness. We sound like a trusted technology partner, not a sales team or generic agency.",
   "voice": {
-    "primary": [
-      "Calm",
-      "Trustworthy",
-      "Human",
-      "Clear",
-      "Professional"
-    ],
-    "secondary": [
-      "Competent",
-      "Local",
-      "Experienced",
-      "Grounded",
-      "Helpful"
-    ]
+    "primary": ["Calm", "Trustworthy", "Human", "Clear", "Professional"],
+    "secondary": ["Competent", "Local", "Experienced", "Grounded", "Helpful"]
   },
-  "coreMessage": "We'll fix it. And we'll explain it. And it'll stay fixed.",
+  "coreMessage": "We build it. We support it. We stay with you.",
   "preferredLanguage": {
     "use": [
-      {
-        "instead_of": "vendor",
-        "use": "partner"
-      },
-      {
-        "instead_of": "deliverables",
-        "use": "support"
-      },
-      {
-        "instead_of": "features",
-        "use": "systems"
-      },
-      {
-        "instead_of": "quick wins",
-        "use": "long-term"
-      },
-      {
-        "instead_of": "agency",
-        "use": "technology partner"
-      },
-      {
-        "instead_of": "cutting-edge",
-        "use": "modern"
-      },
-      {
-        "instead_of": "disruptive",
-        "use": "practical"
-      },
-      {
-        "instead_of": "leverage",
-        "use": "use"
-      },
-      {
-        "instead_of": "synergy",
-        "use": "work together"
-      }
+      {"instead_of": "vendor", "use": "partner"},
+      {"instead_of": "deliverables", "use": "what we build"},
+      {"instead_of": "features", "use": "systems"},
+      {"instead_of": "quick wins", "use": "long-term value"},
+      {"instead_of": "agency", "use": "technology partner"},
+      {"instead_of": "cutting-edge", "use": "modern"},
+      {"instead_of": "disruptive", "use": "practical"},
+      {"instead_of": "leverage", "use": "use"},
+      {"instead_of": "synergy", "use": "work together"},
+      {"instead_of": "cheap", "use": "approachable"},
+      {"instead_of": "freelancer", "use": "studio"}
     ]
   },
   "avoid": {
-    "words": [
-      "synergy",
-      "leverage",
-      "disruptive",
-      "cutting-edge",
-      "revolutionize",
-      "game-changing",
-      "next-gen",
-      "bleeding-edge",
-      "scalable solutions",
-      "paradigm shift",
-      "best-in-class",
-      "world-class"
-    ],
+    "words": ["synergy", "leverage", "disruptive", "cutting-edge", "revolutionize", "game-changing", "next-gen", "bleeding-edge", "scalable solutions", "paradigm shift", "best-in-class", "world-class", "cheap", "budget-friendly"],
     "patterns": [
       "Agency buzzwords and marketing speak",
       "AI hype and overpromising",
       "Enterprise-scale implications",
       "Aggressive sales language",
-      "Startup clichés",
+      "Startup cliches",
       "Overconfident claims",
-      "Bragging or flexing achievements"
+      "Bragging or flexing achievements",
+      "Implying we're a large company",
+      "Using exact dollar amounts in public messaging — use ranges instead"
     ]
   },
   "guidelines": [
@@ -88,20 +40,43 @@
     "Show don't tell — imply competence through clarity",
     "Shorter is better. Cut the fluff.",
     "If something sounds like marketing, rewrite it",
-    "When in doubt, sound like you're explaining to a trusted colleague"
+    "When in doubt, sound like you're explaining to a trusted colleague",
+    "Lead with web development and systems — that's what clients come for",
+    "Frame support and consulting as the long-term partnership, not the entry point",
+    "Never list rigid prices publicly — use ranges like 'projects typically range from $1k-$5k'"
   ],
   "examples": {
     "good": [
-      "We provide on-site technical support for schools and nonprofits.",
-      "Our team helps you make better technology decisions.",
-      "We build websites and tools that actually work for your organization.",
-      "Years of hands-on experience supporting real organizations."
+      "We build websites, apps, and AI systems for local organizations.",
+      "Projects typically range from $1k-$5k. Ongoing partnerships start at $150/mo.",
+      "We don't just build it. We stay with you.",
+      "Years of hands-on experience supporting real organizations.",
+      "Custom-scoped to your needs — no cookie-cutter solutions."
     ],
     "bad": [
       "We leverage cutting-edge AI to disrupt the technology consulting space.",
       "Our world-class team delivers best-in-class solutions.",
+      "Websites starting at $299!",
       "Revolutionary approach to digital transformation.",
       "We're the Uber of tech support."
+    ]
+  },
+  "chatbotPersonality": {
+    "name": "SeeZee AI Assistant",
+    "tone": "Friendly, helpful, concise. Like talking to a knowledgeable friend, not a salesperson.",
+    "doNot": [
+      "Be pushy or salesy",
+      "Give exact prices — use ranges and suggest a consultation",
+      "Make promises about timelines without knowing scope",
+      "Pretend to be human",
+      "Over-explain or be verbose"
+    ],
+    "do": [
+      "Answer questions directly and helpfully",
+      "Guide interested visitors toward /contact or /start",
+      "Be transparent about what we can and can't do",
+      "Suggest a free intro call when appropriate",
+      "Share relevant project examples when asked"
     ]
   }
 }
